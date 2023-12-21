@@ -18,7 +18,7 @@ function Home() {
             <Marketing />
             <Customer />
             <BottomBar />
-            {/* <pre>{JSON.stringify(auth, null, 4)}</pre> */}
+            {/* <pre>{JSON.stringify(auth, niull, 4)}</pre> */}
         </div >
     )
 }
