@@ -5,6 +5,7 @@ import Register from '../pages/Auth/Register';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Login from '../pages/Auth/Login';
+import KindJourney from '../pages/ KindJourney/ KindJourney';
 // import HomePage from '../pages/HomePage/HomePage';
 function AppRouter() {
     return (
@@ -15,6 +16,7 @@ function AppRouter() {
                 <Route path='/register' element={<Register />} />
                 <Route path='/login' element={<Login />} />
                 <Route path='*' element={<PageNotFound />} />
+                <Route path='/hanh-trnh-tu-te' element={< KindJourney />} />
             </Routes>
             <ToastContainer />
         </>
