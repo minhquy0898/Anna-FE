@@ -21,7 +21,7 @@ function TopBar() {
             </div>
             <div className='flex gap-4 pt-3'>
                 <NavLink to="/" className='text-sm text-gray-600 font-bold topbarItem py-3 pr-5'>TRANG CHỦ</NavLink>
-                <NavLink to="/" className='text-sm text-gray-600 font-bold topbarItem py-3 pr-5'>HÀNH TRÌNH TỬ TẾ</NavLink>
+                <NavLink to="/hanh-trnh-tu-te" className='text-sm text-gray-600 font-bold topbarItem py-3 pr-5'>HÀNH TRÌNH TỬ TẾ</NavLink>
                 <NavLink to="/products" className='text-sm text-gray-600 font-bold topbarItem py-3 pr-5'>SẢN PHẨM</NavLink>
                 <NavLink to="/" className='text-sm text-gray-600 font-bold topbarItem py-3 pr-5'>VỀ ANNA</NavLink>
                 <NavLink to="/blog" className='text-sm text-gray-600 font-bold topbarItem py-3 pr-5'>BLOG</NavLink>
